@@ -23,4 +23,4 @@ export default function ImagesRender() {
     </div>
   );
 }
-// src='https://live.staticflickr.com/{server-id}/{id}_{secret}_{size-suffix}.jpg'
+
