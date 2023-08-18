@@ -1,0 +1,32 @@
+.Search-container {
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.Search-container > form {
+  display: flex;
+}
+.input-box {
+  border: 1px solid;
+  background-color: aliceblue;
+  border-color: rgb(137, 195, 245);
+  padding: 4px 30px;
+  font-size: 1.5rem;
+}
+
+.input-box:focus {
+  outline: none;
+}
+.btn-search {
+  background-color: blue;
+  border: 1px solid blue;
+  text-align: center;
+  padding: 0px 15px;
+}
+.btn-search > span {
+  color: white;
+  font-size: 15px;
+}

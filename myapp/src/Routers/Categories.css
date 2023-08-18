@@ -1,0 +1,20 @@
+.nav-container {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.nav-container > button {
+  list-style: none;
+  border: 1px solid darkblue;
+  padding: 3px 20px;
+  background-color: darkblue;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}

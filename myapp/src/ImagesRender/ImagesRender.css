@@ -1,0 +1,23 @@
+.Heading {
+  margin-top: 40px;
+  color: navy;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+.img-container {
+  width: 100%;
+  height: 60%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.img-container > img {
+  width: 350px;
+  height: 250px;
+  margin: 5px;
+}
+.img-container > img:hover {
+  transform: scale(1.2);
+}

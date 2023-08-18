@@ -1,0 +1,16 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: block;
+  flex-wrap: wrap;
+}
+
+.title {
+  margin-top: 60px;
+  margin: 30px;
+  color: rgb(0, 0, 119);
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  font-weight: bolder;
+}

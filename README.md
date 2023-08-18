@@ -1,2 +1,0 @@
-# Snapshot
-Image Finder
