@@ -5,7 +5,7 @@ import axios from "axios";
 export default function ContextAPI({ children }) {
   const [input, setInput] = useState("");
   const [toggle, setToggle] = useState(false);
-  const [category, setCategory] = useState("");
+  const [category, setCategory] = useState("Mountains");
   const [Images, setImages] = useState([]);
 
   async function fetchImages(category) {
